@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CHATBOT1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/app_bar_bg</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorPrimaryContainer">@color/chip_bg</item>
+        <item name="colorOnPrimaryContainer">@color/chip_text</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/user_bubble_bg</item>
+        <item name="colorOnSecondary">@color/user_bubble_text</item>
+
+        <!-- Status bar and Navigation bar. -->
+        <item name="android:statusBarColor">@color/app_bar_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.CHATBOT1" parent="Base.Theme.CHATBOT1" />
+
+    <!-- Full-Screen Screen / Dialog Theme -->
+    <style name="FullScreenDialogTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/app_bar_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

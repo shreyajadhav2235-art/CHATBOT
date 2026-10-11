@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warm Cream & Beige Theme Palette -->
+    <color name="background">#F8F0E3</color>          <!-- Soft Cream Main Background -->
+    <color name="app_bar_bg">#FBF4E8</color>          <!-- Light Warm Cream App Bar -->
+    <color name="drawer_bg">#FBF4E8</color>           <!-- Light Warm Cream Sidebar -->
+    <color name="drawer_card">#F0E2CD</color>         <!-- Hover / Active Sidebar Item -->
+
+    <color name="user_bubble_bg">#EBD7B8</color>      <!-- Soft Beige User Bubble -->
+    <color name="user_bubble_text">#29251F</color>    <!-- Dark Brown User Text -->
+
+    <color name="bot_bubble_bg">#FFF9F0</color>       <!-- Very Light Cream / Off-White Bot Bubble -->
+    <color name="bot_bubble_text">#29251F</color>     <!-- Dark Brown Bot Text -->
+
+    <color name="card_bg">#FBF4E8</color>             <!-- Light Warm Cream Card -->
+
+    <color name="input_bg">#FFF9F0</color>            <!-- Very Light Cream Input -->
+    <color name="input_border">#E2D2BA</color>        <!-- Light Beige Input Border -->
+
+    <color name="send_btn_bg">#D8D0C6</color>        <!-- Soft Grey-Beige Send Button -->
+    <color name="send_btn_tint">#29251F</color>      <!-- Dark Brown Icon -->
+
+    <color name="accent_green">#10B981</color>       <!-- Thinking Accent Green -->
+    <color name="accent_green_light">#1A10B981</color>
+
+    <color name="text_primary">#29251F</color>        <!-- Dark Brown/Black -->
+    <color name="text_secondary">#756D63</color>      <!-- Muted Brown-Grey -->
+    <color name="text_tertiary">#9C9286</color>       <!-- Light Muted Brown-Grey -->
+
+    <color name="chip_bg">#FFF9F0</color>             <!-- Light Cream Chip -->
+    <color name="chip_border">#E2D2BA</color>         <!-- Beige Chip Border -->
+    <color name="chip_text">#29251F</color>           <!-- Dark Brown Chip Text -->
+
+    <color name="border_color">#E2D2BA</color>        <!-- Light Beige Border -->
+    <color name="primary">#FBF4E8</color>             <!-- App Bar Color -->
+    <color name="accent">#C8B8A0</color>              <!-- Warm Accent -->
+    <color name="accent_dark">#8C7A62</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ML Assistant</string>
+    <string name="bot_title">ML Assistant</string>
+    <string name="bot_subtitle">Offline Multimodal ML AI Engine</string>
+    <string name="input_hint">Ask anything about Machine Learning&#8230;</string>
+    <string name="send">Send</string>
+    <string name="voice_input">Voice input</string>
+    <string name="more_options">More options</string>
+    <string name="clear_chat">Clear Chat</string>
+    <string name="clear_chat_title">Start New Chat?</string>
+    <string name="clear_chat_message">This will reset current conversation and context.</string>
+    <string name="clear">New Chat</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcome_title">ML Assistant AI</string>
+    <string name="welcome_desc">Ask me anything about Machine Learning concepts, algorithms, code, equations, or upload notes, images &amp; PDFs.</string>
+    <string name="quick_suggestions">Try asking:</string>
+    <string name="typing_status">ML AI is thinking &amp; reasoning&#8230;</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="badge_quick">Quick Answer</string>
+    <string name="badge_normal">Normal Explanation</string>
+    <string name="badge_deep">Deep Explanation</string>
+    <string name="badge_comparison">Comparison</string>
+    <string name="thinking_on">🧠 Deep Thinking Mode ON</string>
+</resources>

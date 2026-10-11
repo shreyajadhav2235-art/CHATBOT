@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_sheet_dark"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="14dp"
+    android:paddingBottom="24dp">
+
+    <!-- Top Handle Bar -->
+    <View
+        android:layout_width="36dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="#333333" />
+
+    <!-- 1. Camera -->
+    <LinearLayout
+        android:id="@+id/btnAttachCamera"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:contentDescription="Camera"
+            android:src="@drawable/ic_outline_camera"
+            app:tint="#ECECF1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Camera"
+            android:textColor="#ECECF1"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <!-- 2. Photos -->
+    <LinearLayout
+        android:id="@+id/btnAttachPhotos"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:contentDescription="Photos"
+            android:src="@drawable/ic_outline_photos"
+            app:tint="#ECECF1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Photos"
+            android:textColor="#ECECF1"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <!-- 3. Files -->
+    <LinearLayout
+        android:id="@+id/btnAttachFiles"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:contentDescription="Files"
+            android:src="@drawable/ic_outline_files"
+            app:tint="#ECECF1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Files"
+            android:textColor="#ECECF1"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <!-- 4. Think harder -->
+    <LinearLayout
+        android:id="@+id/btnAttachThinking"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:contentDescription="Think harder"
+            android:src="@drawable/ic_outline_brain"
+            app:tint="#ECECF1" />
+
+        <TextView
+            android:id="@+id/tvThinkingLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:text="Think harder"
+            android:textColor="#ECECF1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvThinkingState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OFF"
+            android:textColor="#8E8EA0"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
